@@ -26,9 +26,17 @@
          font-size: 3.5rem;
          }
          }
-         body, main
+         body
          {
          background-image: url(bg.png);
+         
+
+         
+         }
+         .card
+         {
+           cursor: pointer;
+
          }
       </style>
    </head>
@@ -63,51 +71,51 @@
       </section>
       <section class="bg-white" style="margin-bottom: 20pt;">
          <div class="row bg-white" style="background:white;">
-            <div class="col-1 bg-white"></div>
-            <div class="col-11 bg-white" style="border-left: 4mm solid green;">
+            <div class="col-0 bg-white"></div>
+            <div class="col-12 bg-white" style="border-left: 4mm solid green;">
                <h1>推薦遊程</h1>
             </div>
          </div>
       </section>
   
-      <section class="bg-white">
+      <section class="">
          <div class="">
-            <div class="row">
+          <div class="row align-middle" style="background-color: rgba(255, 255, 255, 0.178);">
                <div class="col-lg-1 col-1"></div>
                <div class="col-lg-2 col-11">
-                  <img style="width:50%" src="mountain.png">
+                  <img style="width:50%;  display:flex;  align-items:center;  " src="mountain.png">
                </div>
                <div class="col">
-                  包含新化、大內、左鎮、玉井、楠西、東山、白河等地區，因海拔較高接近山區，有著不同於平原的自然資源，也是愜意尋幽的好去處！
-                  <br><br>
+                  包含新化、大內、左鎮、玉井、楠西、東山、白河等地區<br>因海拔較高接近山區，有著不同於平原的自然資源，也是愜意尋幽的好去處！
+                  <br>
                   <a href="#a1">大坑休閒農場</a>、<a href="#a3">梅嶺休閒農業區-揚梅吐氣</a>、<a href="#a2">龜丹休閒體驗農園</a>、<a href="#a4">走馬瀨農場</a>
                   <BR><BR>
                </div>
             </div>
          </div>
          <div class="">
-            <div class="row">
+          <div class="row align-middle" style="background-color: rgba(255, 255, 255, 0.178);">
                <div class="col-lg-1 col-1"></div>
-               <div class="col-lg-2 col-11">
-                  <img style="width:50%" src="sea.png">
+               <div class="col-lg-2 col-11 align-middle ">
+                  <img style="width:50%;align-middle" src="sea.png">
                </div>
                <div class="col">
-                  以沿海的七股、將軍、北門、學甲等區域所組成，擁有豐富的海洋漁業資源，不僅可以大啖鮮甜海產，享受一場美食盛宴，還能欣賞到美麗的海景！
-                  <br><br>
+                  以沿海的七股、將軍、北門、學甲等區域所組成<br>擁有豐富的海洋漁業資源，不僅可以大啖鮮甜海產，享受一場美食盛宴，還能欣賞到美麗的海景！
+                  <br>
                   <a href="#a6"> 七股溪南休閒農業區</a>、<a href="#a5">龍海號生態之旅</a>
                   <BR><BR>
                </div>
             </div>
          </div>
          <div class="">
-            <div class="row">
+            <div class="row" style="background-color: rgba(255, 255, 255, 0.178);">
                <div class="col-lg-1 col-1"></div>
                <div class="col-lg-2 col-11">
-                  <img style="width:50%" src="green.png">
+                  <img style="width:80%" src="green.png">
                </div>
                <div class="col">
-                  包含麻豆、官田、六甲、善化、永康、歸仁、仁德等地區，腹地廣闊且鄰近鬧區，更是不少家庭親子遊的首選路線！
-                  <br><br>
+                  包含麻豆、官田、六甲、善化、永康、歸仁、仁德等地區<br>腹地廣闊且鄰近鬧區，更是不少家庭親子遊的首選路線！
+                  <br>
                   <a href="#a8">台南鴨莊休閒農場</a>、<a href="#a10">吉園休閒農場</a>、<a href="#a7">乳牛的家</a>、<a href="#a9">九品蓮花生態教育園區</a>
                   <BR><BR>
                   <br>
@@ -118,8 +126,8 @@
     
       <div class="bg-white" style="margin-bottom: 0pt;">
          <div class="row bg-white" style="background:white;">
-            <div class="col-1 bg-white"></div>
-            <div class="col-11 bg-white" style="border-left: 4mm solid green;">
+            <div class="col-0 bg-white"></div>
+            <div class="col-12 bg-white" style="border-left: 4mm solid green;">
                <h1>十大休農</h1>
             </div>
          </div>
@@ -136,8 +144,8 @@
 
 
  <!-- Modal -->
- <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+ <div class="modal fade  bd-example-modal-xl" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog  modal-dialog-scrollable modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="exampleModalLabel1">大坑休閒農場</h5>
@@ -190,11 +198,9 @@
 
 
          <p>營業時間：週一至週日<span> 09:00-20:00</span></p>
-         <p>官網：<span>http://www.idakeng.com.tw/</span></p>
+         <p>官網：<a href="http://www.idakeng.com.tw/">http://www.idakeng.com.tw/</a></span></p>
          <p>場域屬性：山線</p>
-         <p>場域介紹：我們擁有大自然豐富的資源、濃厚的人情味、樂活養生與時尚慢活新概念，</p>
-         <p>生態永續觀光概念崛起，農場大力提倡生態保育、休閒創新及研發農特產創意養生料理，我們擁有是無比的愛心及熱情，我們營造非常輕鬆愜意的農場環境，實現了每一分都在渡假、每一秒都在享受，滿足身心靈之需求，讓大家恣意休閒，徜徉幸福。</p>
-         <p>主打特色：泡湯、可愛動物、步道健行、二寮日出</p>
+         <p>場域介紹：我們擁有大自然豐富的資源、濃厚的人情味、樂活養生與時尚慢活新概念，生態永續觀光概念崛起，農場大力提倡生態保育、休閒創新及研發農特產創意養生料理，我們擁有是無比的愛心及熱情，我們營造非常輕鬆愜意的農場環境，實現了每一分都在渡假、每一秒都在享受，滿足身心靈之需求，讓大家恣意休閒，徜徉幸福。主打特色：泡湯、可愛動物、步道健行、二寮日出</p>
          <p>是否購票：是，可加購特殊需求</p>
          <p>入場人數：<span>80</span>人以上</p>
          <p>住宿人數：<span>40</span>人以上</p>
@@ -202,7 +208,7 @@
          <p>特色風味餐：Ｖ雞、Ｖ畜、<span>V</span>海鮮、Ｖ蔬食</p>
          <p>提供素食：Ｖ<span><br /></span>無障礙設備：Ｖ<span><br /></span>購物點：Ｖ</p>
          <p>停車空間：巴士<span>10</span>輛、汽車<span>60</span>輛</p>
-         <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：虎頭埤水庫、新化老街、瓜瓜園生態故事館、山上花園水道博物館、左鎮化石園區、新化國家植物園、林家園藝、二寮觀日亭</p>
+         <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：虎頭埤水庫、新化老街、瓜瓜園生態故事館、山上花園水道博物館、左鎮化石園區、新化國家植物園、林家園藝、二寮觀日亭</p>
          <p>＜相關資訊請以業者公告為準＞</p>
 
 
@@ -225,16 +231,16 @@
 
 <!--album-->
 
-                  <div class="card shadow-sm" id="a2">
+                  <div class="card shadow-sm" id="a2"  >
                      <img src="pic/002/001.jpg"  data-bs-toggle="modal"  data-bs-target="#exampleModal2" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                      </img>
-                     <div class="card-body">
+                     <div class="card-body" >
                         <div class="card-text text-center"><strong>山線 | 龜丹休閒體驗農園</strong></div>
 
 
  <!-- Modal -->
  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="exampleModalLabel2">龜丹休閒體驗農園</h5>
@@ -250,19 +256,19 @@
                       <img src="pic/002/001.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                      <img src="pic/002/002.JPG" class="d-block w-100" alt="...">
+                      <img src="pic/002/002.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                      <img src="pic/002/003.JPG" class="d-block w-100" alt="...">
+                      <img src="pic/002/003.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                     <img src="pic/002/004.JPG" class="d-block w-100" alt="...">
+                     <img src="pic/002/004.jpg" class="d-block w-100" alt="...">
                    </div>
                    <div class="carousel-item" data-bs-interval="2000">
-                     <img src="pic/002/005.JPG" class="d-block w-100" alt="...">
+                     <img src="pic/002/005.jpg" class="d-block w-100" alt="...">
                    </div>                   
                    <div class="carousel-item" data-bs-interval="2000">
-                     <img src="pic/002/006.JPG" class="d-block w-100" alt="...">
+                     <img src="pic/002/006.jpg" class="d-block w-100" alt="...">
                    </div>         
                    <div class="carousel-item" data-bs-interval="2000">
                      <img src="pic/002/007.jpg" class="d-block w-100" alt="...">
@@ -290,10 +296,9 @@
                 <p>地址：臺南市楠西區龜丹里<span>59-6</span>號</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.013934614899!2d120.50477131542448!3d23.133165917989636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e6060f7e64ca1%3A0xb2c71367c354c5bd!2z6b6c5Li55rC05ZOl5rqr5rOJ5Y2AIHwg6b6c5Li55LyR6ZaS6auU6amX6L6y5ZySIHwg5Lu_6YeO5rqq5Y6f55-z6Kit6KiI5rqr5rOJ5Y2AIEhPVC1TUFJJTkcgUkVTT1JU!5e0!3m2!1szh-TW!2stw!4v1639612389511!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <p>營業時間：平日<span>12:00-21:00</span>，假日<span>09:00-21:00</span></p>
-                <p>官網：<span>https://gueidan.weebly.com/</span></p>
+                <p>官網：<a href="https://gueidan.weebly.com/">https://gueidan.weebly.com/</a></p>
                 <p>場域屬性：山線</p>
-                <p>場域介紹：龜丹休閒體驗農園內有許多溫泉設施，主打著熱水冷水都是<span>100 %</span>溫泉水，</p>
-                <p>不套用一般水質，也經過每三年的檢驗合格證書，像是單純泡腳、湯屋泡湯、大眾時泡湯等等，一應具全。最讓人驚呼的是，每年<span>3-4</span>月會有花旗木盛開，龜丹水哥溫泉有獨有的花旗木步道，可以邊泡湯邊看著外面滿天盛開的花旗木，享受一下身心靈獨有的美妙氛圍。</p>
+                <p>場域介紹：龜丹休閒體驗農園內有許多溫泉設施，主打<span>100 %</span>溫泉水，不套用一般水質，也經過每三年一次的檢驗合格證書，像是單純泡腳、湯屋泡湯、大眾時泡湯等一應具全。最讓人驚呼的是，每年<span>3-4</span>月會有花旗木盛開，龜丹水哥溫泉有獨有的花旗木步道，可以邊泡湯邊看著外面滿天盛開的花旗木，享受一下身心靈獨有的美妙氛圍。</p>
                 <p>主打特色：養生溫泉、農產</p>
                 <p>是否購票：是，可加購特殊需求</p>
                 <p>入場人數：<span>80</span>人以上</p>
@@ -301,7 +306,7 @@
                 <p>住宿房型：一般房</p>
                 <p>提供素食：<span>X<br /></span>無障礙設備：<span>V<br /></span>購物點：Ｖ</p>
                 <p>停車空間：巴士<span>6</span>輛、汽車<span>50</span>輛</p>
-                <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：梅嶺休閒農業區-揚梅吐氣、果農之家、玄空法寺、梅嶺風景區、神秘氣場露營</p>
+                <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：梅嶺休閒農業區-揚梅吐氣、果農之家、玄空法寺、梅嶺風景區、神秘氣場露營</p>
                 <p>區</p>
                 <p>＜相關資訊請以業者公告為準＞</p>
 
@@ -340,7 +345,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
-<div class="modal-dialog  modal-dialog-scrollable ">
+<div class="modal-dialog  modal-dialog-scrollable  modal-xl">
 <div class="modal-content">
 <div class="modal-header">
 <h5 class="modal-title" id="exampleModalLabel3">梅嶺休閒農業區-揚梅吐氣</h5>
@@ -399,10 +404,9 @@
 <p>地址：臺南市楠西區灣丘里灣丘<span>1-5</span>號</p>
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.8845904202403!2d120.49572931542507!3d23.174411916450364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e60274309b4e3%3A0x5cbc7db81d8885e5!2z5o-a5qKF5ZCQ5rCj!5e0!3m2!1szh-TW!2stw!4v1639612414254!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 <p>營業時間：週一至週日 <span>11:00-20:00</span></p>
-<p>官網：<span>https://www.plumchang.com/</span></p>
+<p>官網：<a href="https://www.plumchang.com/">https://www.plumchang.com/</a></span></p>
 <p>場域屬性：山線</p>
-<p>場域介紹：於<span>70</span>多年前第一代梅園負責人張佳文先生開墾土地並種植梅子，到兒子張</p>
-<p>添山與媳婦徐玉華承接梅園的管理，開發出各式各樣的產品；除了讓大家更加認識到梅子的好處，還研究出日本人流行已久的青梅精，成為梅嶺最先生產青梅精並且販售的店家之ㄧ，到目前第三代經營網路平臺販售。唯一誠心的希望就是能把梅子做好，讓有緣與梅子結緣的客人不失所望，並期許每個人能更加「掦梅吐氣。」</p>
+<p>場域介紹：於<span>70</span>多年前第一代梅園負責人張佳文先生開墾土地並種植梅子，到兒子張添山與媳婦徐玉華承接梅園的管理，開發出各式各樣的產品；除了讓大家更加認識到梅子的好處，還研究出日本人流行已久的青梅精，成為梅嶺最先生產青梅精並且販售的店家之ㄧ，到目前第三代經營網路平臺販售。唯一誠心的希望就是能把梅子做好，讓有緣與梅子結緣的客人不失所望，並期許每個人能更加「掦梅吐氣」</p>
 <p>主打特色：梅子農產加工品</p>
 <p>是否購票：否</p>
 <p>入場人數：<span>80</span>人以上</p>
@@ -410,7 +414,7 @@
 <p>特色風味餐：Ｖ雞、Ｖ畜、Ｖ蔬食</p>
 <p>提供素食：<span>V<br /></span>無障礙設備：<span>X<br /></span>購物點：Ｖ</p>
 <p>停車空間：巴士<span>2</span>輛、汽車<span>20</span>輛</p>
-<p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：龜丹休閒體驗農園、果農之家、玄空法寺、梅嶺風景區、神秘</p>
+<p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：龜丹休閒體驗農園、果農之家、玄空法寺、梅嶺風景區、神秘</p>
 <p>氣場露營區</p>
 <p>＜相關資訊請以業者公告為準＞</p>
 
@@ -451,7 +455,7 @@
 
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable  modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="staticBackdropLabel4">走馬瀨農場</h5>
@@ -520,10 +524,9 @@
 <p>地址：臺南市大內區二溪里其哩瓦<span>60</span>號</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1834.4569750656026!2d120.42666530821718!3d23.1368203627017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e63d0b0d9e215%3A0xee9878305f99be15!2z6LWw6aas54Co6L6y5aC0KFRzb3UgTWEgTGFpIEZhcm0p!5e0!3m2!1szh-TW!2stw!4v1639610779681!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 <p>營業時間：平日<span>09:00-17:00</span>，假日<span>08:00-17:00</span></p>
-<p>官網：<span>http://www.farm.com.tw/</span></p>
+<p>官網：<span><a href="https://www.farm.com.tw/">http://www.farm.com.tw/</a></span></p>
 <p>場域屬性：山線</p>
-<p>場域介紹：走馬瀨農場是由臺南市農會經營，位於臺南市大內區，面積<span>120</span>公頃，廣植</p>
-<p>40公頃之盤固拉牧草，提供五感六覺全方位的複合綠能空間，設施有住宿、露營、會議、展演、餐飲及十餘項運動休閒遊憩，是環境教育及 食農教育農業體驗的最佳戶外教室，更是自然旅行享受休閒的最佳地點。樂遊走馬瀨，生活真不賴！</p>
+<p>場域介紹：走馬瀨農場是由臺南市農會經營，位於臺南市大內區，面積<span>120</span>公頃，廣植40公頃之盤固拉牧草，提供五感六覺全方位的複合綠能空間，設施有住宿、露營、會議、展演、餐飲及十餘項運動休閒遊憩，是環境教育及 食農教育農業體驗的最佳戶外教室，更是自然旅行享受休閒的最佳地點。樂遊走馬瀨，生活真不賴！</p>
 <p>主打特色：吃草、玩草、遊憩、表演</p>
 <p>是否購票：是</p>
 <p>入場人數：<span>80</span>人以上</p>
@@ -531,7 +534,7 @@
 <p>住宿房型：木屋、一般房</p>
 <p>提供素食：Ｖ<span><br /></span>無障礙設備：Ｖ<span><br /></span>購物點：Ｖ</p>
 <p>停車空間：巴士<span>200</span>輛、汽車<span>2000</span>輛</p>
-<p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：南瀛天文館、山上水道博物館、左鎮化石館、玉井青果市場、</p>
+<p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：南瀛天文館、山上水道博物館、左鎮化石館、玉井青果市場、</p>
 <p>烏山頭水庫、曾文水庫</p>
 <p>＜相關資訊請以業者公告為準＞</p>
        </div>
@@ -562,7 +565,7 @@
 
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel5" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable  modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="staticBackdropLabel5">龍海號生態之旅</h5>
@@ -640,10 +643,9 @@
 
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.402221259411!2d120.09957931542438!3d23.11896881851896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346dd70fff231d3f%3A0x484730c799c8e22!2z5LiD6IKh6b6N5rW36Jmf55Sf5oWL5LmL5peF77yI5rW35a-u56K86aCt77yJ!5e0!3m2!1szh-TW!2stw!4v1639608776404!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <p>營業時間：無固定公休日</p>
-          <p>粉絲專頁：<span>https://www.facebook.com/ longseaboat/</span></p>
+          <p>粉絲專頁：<span><a href="https://www.facebook.com/longseaboat/">https://www.facebook.com/longseaboat/</a></span></p>
           <p>場域屬性：海線</p>
-          <p>場域介紹：<span>2002/05/09</span>創業至今，已將近二十個年頭，從以前單純遊船，到現在有了</p>
-          <p>烤蚵、新增了許多炭烤食材品項、農漁產品的販售，還有船上全程的導覽介紹，還有所有設備的更新，日新月異的時代來臨，除了更新還是更新，除了成長還是成長。唯有不斷的改變才能生存下去，才能提供更好、更優質的服務讓遊客體驗。</p>
+          <p>場域介紹：<span>2002/05/09</span>創業至今，已將近二十個年頭，從以前單純遊船，到現在有了烤蚵、新增了許多炭烤食材品項、農漁產品的販售，還有船上全程的導覽介紹，還有所有設備的更新，日新月異的時代來臨，除了更新還要創新。唯有不斷的改變才能生存下去，才能提供更好、更優質的服務讓遊客體驗。</p>
           <p>主打特色：船遊潟湖、導覽介紹、烤蚵</p>
           <p>是否購票：是，可加購特殊需求</p>
           <p>入場人數：<span>80</span>人以上</p>
@@ -651,7 +653,7 @@
           <p>特色風味餐：<span>V</span>海鮮</p>
           <p>提供素食：<span>Ｖ需提早一天前預訂<br /></span>無障礙設備：<span>X<br /></span>購物點：Ｖ</p>
           <p>停車空間：巴士8-10輛、汽車20-50輛</p>
-          <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：溪南休閒農業區、七股鹽山、七股遊客中心、鹽博物館</p>
+          <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：溪南休閒農業區、七股鹽山、七股遊客中心、鹽博物館</p>
           <p>＜相關資訊請以業者公告為準＞</p>
        </div>
        <div class="modal-footer">
@@ -684,7 +686,7 @@
 
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel6" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable  modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="staticBackdropLabel6">七股溪南休閒農業區</h5>
@@ -765,10 +767,9 @@
           <p>地址：臺南市七股區溪南里溪南<span>48</span>號</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.1252983438885!2d120.13034631542432!3d23.129094918141373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346dd7afaaaaaaab%3A0x8c2339cac3dee3e0!2z5LiD6IKh5rqq5Y2X5LyR6ZaS6L6y5qWt5Y2A!5e0!3m2!1szh-TW!2stw!4v1639610353784!5m2!1szh-TW!2stw" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <p>營業時間：週一至週日<span> 09:00-18:00</span></p>
-          <p>官網：<span>https://shinanala.com/</span></p>
+          <p>官網：<span><a href="https://shinanala.com/">https://shinanala.com</a></span></p>
           <p>場域屬性：海線</p>
-          <p>場域介紹：「臺南市七股區溪南休閒農業區」於民國<span> 97 </span>年由行政院農業委員會評選通</p>
-          <p>過，「溪南」最初是因為七股溪以南而命名，休區面積共有<span>517.59</span>公頃，鄰近臺江國家公園具有豐富多元的生態資源，是臺灣少數以漁業為主的休區，更是日本及海外遊客來臺旅遊指定旅遊漁村，歡迎大家蒞臨休閒旅遊。</p>
+          <p>場域介紹：「臺南市七股區溪南休閒農業區」於民國<span> 97 </span>年由行政院農業委員會評選通過，「溪南」最初是因為七股溪以南而命名，休區面積共有<span>517.59</span>公頃，鄰近臺江國家公園具有豐富多元的生態資源，是臺灣少數以漁業為主的休閒農業區，更是日本及海外遊客來臺旅遊指定旅遊漁村，歡迎大家蒞臨休閒旅遊。</p>
           <p>主打特色：漁業體驗、<span>DIY</span>手工藝</p>
           <p>是否購票：否</p>
           <p>入場人數：<span>80</span>人以上</p>
@@ -777,7 +778,7 @@
           <p>特色風味餐：Ｖ雞、Ｖ畜、<span>V</span>海鮮、Ｖ蔬食</p>
           <p>提供素食：Ｖ<span><br /></span>無障礙設備：Ｖ<span><br /></span>購物點：Ｖ</p>
           <p>停車空間：巴士<span>5</span>輛、汽車<span>30</span>輛</p>
-          <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：七股鹽山、台江國家公園遊客中心、七股遊客中心、蕭瓏文化園區
+          <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：七股鹽山、台江國家公園遊客中心、七股遊客中心、蕭瓏文化園區
           <p>＜相關資訊請以業者公告為準＞</p>
 
 
@@ -816,7 +817,7 @@
 
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel7" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable  modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="staticBackdropLabel7">乳牛的家</h5>
@@ -897,10 +898,9 @@
           <p>地址：臺南市柳營區八翁里<span>93-138</span>號</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.310817438096!2d120.29316041542614!3d23.268153312942804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e86f8ffffffff%3A0xb48bd6f75eae9a68!2z5YWr6ICB54i66LuK56uZLeS5s-eJm-eahOWutg!5e0!3m2!1szh-TW!2stw!4v1639612451745!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <p>營業時間：週一至週日 <span>08:00-17:00</span>（週三休園）</p>
-          <p>官網：<span>http://www.cowhome.com.tw/</span></p>
+          <p>官網：<span><a href="https://www.cowhome.com.tw/">http://www.cowhome.com.tw/</a></span></p>
           <p>場域屬性：平原牧場線</p>
-          <p>場域介紹：位於牛奶故鄉柳營的酪農區內，原本是酪農戶，近年轉型為觀光牧場與餐廳，</p>
-          <p>是許多父母假日遛小孩的好去處。園區內設施完善，可以近距離與溫馴的動物們接觸，舉凡拿牧草餵羊，或是拿著奶瓶餵小乳牛喝牛奶，都讓大人小孩流連忘返。園區內的柑仔店也有許多復古的遊戲及老玩具，讓爸媽們回味童年的記憶，也讓小孩認識爸媽或祖父母孩提時代的趣味，玩累後可以在此來個新鮮的牛奶鍋填飽肚子，</p>
+          <p>場域介紹：位於牛奶故鄉柳營的酪農區內，原本是酪農戶，近年轉型為觀光牧場與餐廳，是許多父母假日遛小孩的好去處。園區內設施完善，可以近距離與溫馴的動物們接觸，舉凡拿牧草餵羊，或是拿著奶瓶餵小乳牛喝牛奶，都讓大人小孩流連忘返。園區內的柑仔店也有許多復古的遊戲及老玩具，讓爸媽們回味童年的記憶，也讓小孩認識爸媽或祖父母孩提時代的趣味，玩累後可以在此來個新鮮的牛奶鍋填飽肚子，</p>
           <p>主打特色：台糖五分車、可愛動物</p>
           <p>是否購票：是，可加購特殊需求</p>
           <p>入場人數：<span>80</span>人以上</p>
@@ -908,7 +908,7 @@
           <p>特色風味餐：Ｖ雞、Ｖ畜</p>
           <p>提供素食：<span>V<br /></span>無障礙設備：<span>V<br /></span>購物點：Ｖ</p>
           <p>停車空間：巴士<span>4</span>輛、汽車<span>50</span>輛</p>
-          <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：九品蓮花生態教育園區、台南鴨莊休閒農場、吉園休閒農場、</p>
+          <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：九品蓮花生態教育園區、台南鴨莊休閒農場、吉園休閒農場、</p>
           <p>總爺藝文中心、麻豆古港文化園區、麻豆代天府、德元碑<span>(</span>荷蘭村<span>)</span>、新營糖廠文化園區</p>
           <p>＜相關資訊請以業者公告為準＞</p>
 
@@ -947,7 +947,7 @@
 
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel8" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable  modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="staticBackdropLabel8">台南鴨莊休閒農場</h5>
@@ -1035,8 +1035,8 @@
           <p>地址：臺南市官田區渡拔里三塊厝<span>178-1</span>號</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.461837781367!2d120.34388011542464!3d23.153338317237125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7d2097d33245%3A0xc3bb0c5cac4b5fd0!2z6Ie65Y2X6bSo6I6K5LyR6ZaS6L6y5aC0!5e0!3m2!1szh-TW!2stw!4v1639611538965!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <p>營業時間：週六、日 <span>09:00-17:00 </span>平日需事先團體預約(週一公休)</p>
-          <p>官網：<span>http://www.duckfarm.com.tw/</span></p>
-          <p>粉絲專頁：<span>https://www.facebook.com/DuckFarm/</span></p>
+          <p>官網：<span><a href="https://www.duckfarm.com.tw/">http://www.duckfarm.com.tw/</a></span></p>
+          <p>粉絲專頁：<span><a href="https://www.facebook.com/DuckFarm/">https://www.facebook.com/DuckFarm/</a></span></p>
           <p>場域屬性：平原牧場線</p>
           <p>場域介紹：「臺南鴨莊」原以傳統菜鴨養殖及鴨蛋加工生產為主，百年養鴨事業祖傳三代，後逐漸轉型成具備寓教於樂的休閒農場，農場結合農業、教育與餐廳，並成立「田媽媽蛋品展售中心」，提供親子旅遊、度假休閒、戶外教學之極佳環境。</p>
           <p>主打特色：皮蛋<span>/</span>鹹蛋<span>DIY</span>、焢窯</p>
@@ -1047,7 +1047,7 @@
           <p>特色風味餐：Ｖ雞、Ｖ畜、Ｖ蔬食</p>
           <p>提供素食：Ｖ<span><br /></span>無障礙設備：Ｖ<span><br /></span>購物點：Ｖ</p>
           <p>停車空間：巴士<span>16</span>輛、汽車<span>120</span>輛</p>
-          <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：官田水雉園區、烏山頭水庫、大內天文台、吉園休閒農場、九品蓮花生態教育園區、總爺藝文中心、麻豆古港文化園區、麻豆代天府</p>
+          <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：官田水雉園區、烏山頭水庫、大內天文台、吉園休閒農場、九品蓮花生態教育園區、總爺藝文中心、麻豆古港文化園區、麻豆代天府</p>
           <p>＜相關資訊請以業者公告為準＞</p>
 
        </div>
@@ -1079,7 +1079,7 @@
 
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel9" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable  modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="staticBackdropLabel9">九品蓮花生態教育園區</h5>
@@ -1170,10 +1170,9 @@
           <p>地址：臺南市六甲區中社里林鳳營<span>109-1</span>號</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.9462970630993!2d120.31475011542574!3d23.245041213808822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e87b9cefaf0f3%3A0xc6a5068e015a7497!2z5Lmd5ZOB6JOu6Iqx55Sf5oWL5pWZ6IKy5ZyS5Y2A!5e0!3m2!1szh-TW!2stw!4v1639612018631!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <p>營業時間：週一至週日 <span>08:00-17:30</span></p>
-          <p>官網：<span>http://jiou-pin-lotus.com.tw/</span></p>
+          <p>官網：<span><a href="https://jiou-pin-lotus.com.tw/">https://jiou-pin-lotus.com.tw/</a></span></p>
           <p>場域屬性：平原牧場線</p>
-          <p>場域介紹：九品蓮花生態教育園區從<span>1988</span>年研發香水蓮花至今已<span> 30 </span>多年，從一級</p>
-          <p>產業經營至五級產業秉持著天然健康的養生理念，創立人林朕古更曾獲得神農獎的肯定。現今搭配結合週邊景點，自然資源、農特產品、生態教育等多功能進行促銷推廣，加以開發整合，結合產業、文化、教育、宗教、科技、藝術、觀光休閒等多元多角經營，推廣套裝活動，促進社區發展，活絡地區經濟經，將可為沉寂已久傳統農業提供轉型契機，也因自然、人文景觀的保育，農業得予永續經營。</p>
+          <p>場域介紹：九品蓮花生態教育園區從<span>1988</span>年研發香水蓮花至今已<span> 30 </span>多年，從一級產業經營至六級產業秉持著天然健康的養生理念，創立人林朕古更曾獲得神農獎的肯定。現今搭配結合週邊景點，自然資源、農特產品、生態教育等多功能進行促銷推廣，加以開發整合，結合產業、文化、教育、宗教、科技、藝術、觀光休閒等多元多角經營，推廣套裝活動，促進社區發展，活絡地區經濟經，將可為傳統農業提供轉型契機，也因自然及人文景觀的保育，農業得予永續經營。</p>
           <p>主打特色：賞蓮、美食</p>
           <p>是否購票：否</p>
           <p>入場人數：<span>80</span>人以上</p>
@@ -1181,7 +1180,7 @@
           <p>特色風味餐：Ｖ畜、Ｖ蔬食</p>
           <p>提供素食：<span>V<br /></span>無障礙設備：<span>X<br /></span>購物點：Ｖ</p>
           <p>停車空間：巴士<span>6</span>輛、汽車<span>30</span>輛</p>
-          <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：總爺藝文中心、麻豆古港文化園區、麻豆代天府、台南鴨莊休閒農場、烏山頭風景區、乳牛的家、落羽松森林</p>
+          <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：總爺藝文中心、麻豆古港文化園區、麻豆代天府、台南鴨莊休閒農場、烏山頭風景區、乳牛的家、落羽松森林</p>
           <p>＜相關資訊請以業者公告為準＞</p>
 
        </div>
@@ -1221,7 +1220,7 @@
 
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel10" aria-hidden="true">
-   <div class="modal-dialog  modal-dialog-scrollable">
+   <div class="modal-dialog  modal-dialog-scrollable  modal-xl">
      <div class="modal-content">
        <div class="modal-header">
          <h5 class="modal-title" id="staticBackdropLabel10">吉園休閒農場</h5>
@@ -1311,17 +1310,16 @@
           <p>地址：臺南市麻豆區南勢里總爺<span>104-1</span>號</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.534175185586!2d120.26866591542513!3d23.1871957159728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7dc973135547%3A0xb2d0476eab09874d!2z6bq76LGG5ZCJ5ZyS5LyR6ZaS6L6y5aC0!5e0!3m2!1szh-TW!2stw!4v1639612245886!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <p>營業時間：週三至週日<span> 13:30-18:00</span></p>
-          <p>粉絲專頁：<span>https://www.facebook.com/ninja9948/</span></p>
+          <p>粉絲專頁：<span><a href="https://www.facebook.com/ninja9948/">https://www.facebook.com/ninja9948</a></span></p>
           <p>場域屬性：平原牧場線</p>
-          <p>場域介紹：吉園休閒農場於民國<span>98</span>年取得農委會許可證書，編號<span>209</span>，農場位於文化</p>
-          <p>古鎮麻豆，四周毗鄰市定古蹟總爺糖廠、總爺藝文中心、市定遺址蔴荳古港 文化園區，農場內林木圍繞，環境幽靜優雅，充滿藝文氣息，值得觀光遊憩 及深度旅遊。農場內柚樹茂密，建築頗具設計性，其中一棟木構建築，由名家設計，採單斜屋頂，干欄高腳屋，形樣具有南方風土建築樣態，融合傳統與現代獨特色 設計風格。吉園休閒農場每年三月柚花盛開，辦理音樂、詩文、畫畫、茶席&hellip;等藝文活動，留下不少詩文與畫畫，供人欣賞。</p>
+          <p>場域介紹：吉園休閒農場於民國<span>98</span>年取得農委會許可證書，編號<span>209</span>，農場位於文化古鎮麻豆，四周毗鄰市定古蹟總爺糖廠、總爺藝文中心、市定遺址蔴荳古港 文化園區，農場內林木圍繞，環境幽靜優雅，充滿藝文氣息，值得觀光遊憩 及深度旅遊。農場內柚樹茂密，建築頗具設計性，其中一棟木構建築，由名家設計，採單斜屋頂，干欄高腳屋，形樣具有南方風土建築樣態，融合傳統與現代獨特色 設計風格。吉園休閒農場每年春天柚花盛開，辦理音樂、詩文、畫畫、茶席等藝文活動，留下不少詩文與畫畫，供人欣賞。</p>
           <p>主打特色：窯烤麵包</p>
           <p>是否購票：否</p>
           <p>入場人數：<span>80</span>人以上</p>
           <p>住宿人數：無住宿</p>
           <p>提供素食：<span>X<br /></span>無障礙設備：<span>X<br /></span>購物點：Ｖ</p>
           <p>停車空間：巴士<span>2</span>輛、汽車<span>16</span>輛</p>
-          <p>周邊景點<span>(</span>車程<span>30</span>分內<span>)</span>：總爺藝文中心、麻豆古港文化園區、麻豆代天府、台南鴨莊休閒農場、九品蓮花生態教育園區、乳牛的家</p>
+          <p>順遊景點<span>(</span>車程<span>30</span>分內<span>)</span>：總爺藝文中心、麻豆古港文化園區、麻豆代天府、台南鴨莊休閒農場、九品蓮花生態教育園區、乳牛的家</p>
           <p>＜相關資訊請以業者公告為準＞</p>
        </div>
        <div class="modal-footer">
